@@ -1,0 +1,27 @@
+@media screen and (max-width: 640px) {
+    #content-one-card-one{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center; 
+        gap: 10rem;
+        border: 1px solid red !important;
+        height: auto !important;
+
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    #content-one-card-one{
+        display:flex;
+        /* flex-wrap:wrap; */
+        flex-direction: column;
+        justify-content: center !important; 
+        align-items: center !important;
+        gap: 10rem;
+        /* row-gap: 10rem; */
+        border: 1px solid red !important;
+        height: auto !important;
+
+    }
+    
+}
